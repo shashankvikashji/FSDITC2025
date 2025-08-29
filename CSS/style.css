@@ -1,0 +1,46 @@
+/* *{
+   background-color: aqua;
+} */
+
+/* h1,p,h2{
+    background-color: aqua;
+    color: brown;
+}
+
+#heading1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+} */
+
+div~p{
+    background-color: aqua;
+}
+
+/* p:hover{
+    background-color: aquamarine;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+p:after{
+    content: "React development";
+    background-color: burlywood;
+    color: blue;
+}
+
+p::before{
+    content: "HEY i am learning a React";
+    background-color: fuchsia;
+}
+
+p::selection{
+    background-color: chocolate;
+}
+
+p:nth-child(2){
+    background-color: blue;
+}
+
+div p:nth-of-type(1){
+    
+}
